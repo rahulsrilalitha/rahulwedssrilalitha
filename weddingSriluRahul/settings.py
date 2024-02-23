@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'weddingSriluRahul.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'rahulsrilalitha',
+        'USER': 'mysuperuser',
+        'PASSWORD': 'mysuperuser',
+        'HOST': 'rahulsrilalitha.cfkeuys0uibx.ap-southeast-2.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
